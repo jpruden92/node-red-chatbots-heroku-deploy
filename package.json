@@ -4,10 +4,10 @@
     "version": "0.0.1",
     "dependencies": {
         "node-red": "1.2.7",
+        "node-red-contrib-chatbot": "^0.19.7",
+        "node-red-contrib-storagemodule-postgres": "^1.0.1",
         "node-red-contrib-web-worldmap": "*",
-        "node-red-dashboard": "*",
-		"dialogflow-full-nodered": "^1.0.10",
-		"node-red-contrib-storagemodule-postgres": "^1.0.1"
+        "node-red-dashboard": "*"
     },
     "scripts": {
         "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
