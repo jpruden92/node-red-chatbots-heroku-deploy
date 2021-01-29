@@ -1,0 +1,15 @@
+{
+  "name": "node-red-chatbots-heroku-deploy",
+  "description": "Deploy node-red docker container to heroku",
+  "repository": "https://github.com/jpruden92/node-red-chatbots-heroku-deploy",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Node-red-icon.png",
+  "website": "https://jorgeprudencio.com/",
+  "keywords": ["docker", "container", "node-red"],
+  "stack": "container",
+  "env": {},
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
