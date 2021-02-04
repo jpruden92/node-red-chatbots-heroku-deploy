@@ -294,6 +294,6 @@ module.exports = {
         }
     },
     storageModule: require('node-red-contrib-storagemodule-postgres'),
-    postgresURI: process.env.DATABASE_URL,
+    postgresURI: `${process.env.DATABASE_URL}?ssl=true`,
     postgresSchema: 'public'
 }
