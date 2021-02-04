@@ -6,7 +6,7 @@
         "node-red": "1.2.7",
         "node-red-contrib-chatbot": "git+https://github.com/jpruden92/node-red-contrib-chatbot.git",
         "node-red-contrib-slack": "^2.0.0",
-        "node-red-contrib-storagemodule-postgres": "^1.0.1",
+        "node-red-contrib-storagemodule-postgres": "git+https://github.com/jpruden92/node-red-contrib-storagemodule-postgres.git",
         "node-red-contrib-web-worldmap": "^2.8.1"
     },
     "scripts": {
